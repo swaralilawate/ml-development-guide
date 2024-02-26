@@ -15,5 +15,6 @@ This is a general guide about package installation and system setup
 * Download the appropriate installer from https://docs.anaconda.com/free/miniconda/
 * Run the installer and install miniconda at your preffered path
 * Create new environment with latest python: `conda create -n llm python`
+* Activate the new environment: `conda activate llm`
 
 ## Microsoft Build Tools
