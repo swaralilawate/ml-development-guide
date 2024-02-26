@@ -32,6 +32,14 @@ This is a general guide about package installation and system setup
 ## Drivers
 ## CUDA Toolkit
 ## CUDNN
+## Paths
+* C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\extras\CUPTI\lib64
+* C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\include
+* C:\tools\cudnn-windows-x86_64-8.3.1.22_cuda11.5-archive\bin
+* C:\tools\cudnn-windows-x86_64-8.3.1.22_cuda11.5-archive\include
+* C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin
+
+
 
 # TensorFlow Setup
 # PyTorch Setup
