@@ -36,3 +36,14 @@ This is a general guide about package installation and system setup
 # TensorFlow Setup
 # PyTorch Setup
 
+# Jupyter Setup
+## Jupyter Notebook
+### Installation
+* `pip install notebook`
+### Usage
+* In terminal, `jupyter-notebook`
+## Jupyter Lab
+### Installation
+* `pip install`
+### Usage
+* In terminal, `la`
