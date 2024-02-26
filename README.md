@@ -47,3 +47,6 @@ This is a general guide about package installation and system setup
 * `pip install`
 ### Usage
 * In terminal, `la`
+
+## Setting Conda Environment as Jupyter Kernal
+
