@@ -1,4 +1,4 @@
-# ml-development-guide
+# ML Development Guide
 This is a general guide about package installation and system setup
 
 # Windows System Setup
