@@ -52,9 +52,9 @@ This is a general guide about package installation and system setup
 * In terminal, `jupyter-notebook`
 ## Jupyter Lab
 ### Installation
-* `pip install`
+* `pip install jupyterlab`
 ### Usage
-* In terminal, `la`
+* In terminal, `jupyter lab`
 
 ## Setting Conda Environment as Jupyter Kernal
 
