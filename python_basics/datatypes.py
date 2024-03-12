@@ -32,7 +32,7 @@ print(str.upper())
 print(str.lower())
 
 
-#LIST : mutable , heterogeneous , dynamic , list_name=['','']
+#LIST : mutable , heterogeneous , dynamic , list_name=['',''] , allows duplicates 
 
 #creating a list
 eg=['apple',10,'banana']
@@ -51,7 +51,43 @@ eg.reverse()
 print(eg)
 
 
-#DICTIONARY 
+#DICTIONARY : key:value pairs , ordered , mutable , doesnt allow duplicates , dict_name={ key : value , key :value}
+
+#creating a dictionary
+dict={'a':'apple',2:'banana','third':'mango'}
+print(dict) 
+
+#Accessing elements in dict : use keys as indexes or get() 
+print(dict['third']) 
+print(dict.get('a'))
+
+#updating dictionary 
+dict[2]='pineapple'
+print(dict)
+
+#adding element
+dict['forth']=15
+print(dict)
+
+#TUPLE : immutable , ordered , heterogeneous , allows duplicate entries , tuple_name=('',"")
+#creating a tuple 
+tup=(10,'red','green',17,34,50,'yellow','red')
+print(tup)
+
+#accessing elements inside a tuple
+print(tup[1])
+print(tup[-1]) #in above example , we print duplicate values to verify whether tuple allows duplicate entries 
+
+#count() can be used to count duplicate entries , tup_name.count(element_name)
+
+#SET : unindexed , unordered , immutable , duplicates not allowed 
+#creating a set
+s={'tree',3,57,'apple',57,True,1} #True and 1 / False and 0 are considered as same so duplicates are not printed 
+print(s)
+
+
+
+
 
 
 
